@@ -4,7 +4,7 @@
 
 The core functionality of the app is to provide a platform where users are able to create and issue challenges to their friends or strangers. 
 
-##### note on using the app: 
+##### notes on using the app: 
 * When first created an account there is an email verification window (set for 10 min, for debug purpose), if failed to verify email within that window the timeout module will delete the user from database to clear up the spot.
 * When user login/create with their username and account the server will issue a timeout token (currently set for 30 min, again for debugging) once passed that window trying to use any function will be asked to login again by the app.
 
